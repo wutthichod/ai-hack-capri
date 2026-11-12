@@ -1,0 +1,13 @@
+# Versions from the dsde conda environment (Python 3.12) used for this project.
+pandas==3.1.1
+numpy==2.5.4
+scikit-learn==1.9.1
+lightgbm==4.7.0
+catboost==1.2.10
+optuna==5.0.0
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+openpyxl==3.1.5
+jupyterlab==4.6.6
+ipykernel==7.4.0

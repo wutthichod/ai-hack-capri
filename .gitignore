@@ -1,0 +1,24 @@
+# Competition data: never commit it. The rules forbid sharing it and
+# require deleting every copy after the competition.
+data/*
+!data/.gitkeep
+*.csv
+*.xlsx
+
+# Generated from competition data
+submissions/
+preds_for_blend/
+tuning/
+tuning_quick/
+logs/
+catboost_info/
+*.npy
+
+# Python and Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# macOS
+.DS_Store
